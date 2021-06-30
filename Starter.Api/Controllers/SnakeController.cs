@@ -55,7 +55,7 @@ namespace Starter.Api.Controllers
 
             var response = new MoveResponse
             {
-                #Move = direction[rng.Next(direction.Count)],
+                //Move = direction[rng.Next(direction.Count)],
                 Move = "left",
                 Shout = $"I am moving {direction[rng.Next(direction.Count)]}!"
 
